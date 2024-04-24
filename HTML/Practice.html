@@ -1,0 +1,255 @@
+<!-- denotes the html version -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Hello World</title>
+    <!-- for embedding css and js files -->
+</head>
+
+<body>
+    <!-- heading -->
+    <h1 id="top"></h1>Hello World!!!</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+
+    <!-- paragraph , bold and italic-->
+    <p>Lorem ipsum dolor sit amet <b>consectetur</b>, <i>adipisicing</i> elit. Obcaecati, modi. Ea incidunt, dolores
+        omnis ipsa quam molestias labore repellat nihil.</p>
+
+    <!-- super and sub -->
+    <p>(a+b)<sup>2</sup></p>
+    <p>person<sub>1</sub> and person<sub>2</sub></p>
+
+    <!-- break and hr tag -->
+    <p>Lorem ipsum dolor sit amet consectetur <br>adipisicing elit. Magni blanditiis esse est reprehenderit culpa, neque
+        sequi <br>placeat in aliquid, aut sint? Laborum esse et natus rerum, doloremque molestias sint accusantium.</p>
+    <hr>
+
+    <!-- address tag -->
+    <address>
+        <h3>Address </h3>
+        <p>
+            <b>Anna nagar</b> <br>
+            Teynampet, <br>
+            Chennai - 600 006 <br>
+        </p>
+    </address>
+    <hr>
+
+    <!-- strong and emphasis -->
+    <p><strong>Beware</strong> of dogs.</p>
+    <p><em>India</em> won gold medal</p>
+
+    <!-- quote and block quote -->
+    <p>this is a <q>Quote</q></p>
+    <p>this is a
+    <blockquote> block Quote</blockquote>
+    </p>
+    <hr>
+
+    <!--cite and dfn  -->
+    <p><cite>Avatar</cite>is directed by james cameron</p>
+    <p><dfn>Avatar</dfn> is a movie </p>
+    <hr>
+
+    <!-- del,insert,strike these are used to denote the changes as mark up -->
+    <p> A <del>front</del> <ins>back</ins> end <s>Engineer</s> Developer</p>
+    <hr>
+
+    <!-- image and figure -->
+    <img src="Images/image1.png" alt="image">
+
+
+    <!-- Figure and figure caption -->
+    <figure>
+        <img src="Images/image1.png" alt="image" title="sample image">
+        <figcaption>Sample screenshot</figcaption>
+    </figure>
+    <hr>
+
+    <!--  anchor tag target denotes open page in same window or  other window-->
+    <a href="https://www.youtube.com/watch?v=7cVpA4rME8w" target="_blank">HTML video</a>
+    <!-- email and phone -->
+    <a href="mailto:sample@gmail.com">sample@gmail.com</a>
+    <a href="tell:83292339">83292339</a>
+    <hr>
+
+    <!-- relative path - path pointing from my location  and absolute path - giving full path -->
+
+    <!-- list -->
+    <ol>
+        <li>a</li>
+        <li>b</li>
+        <li>c</li>
+    </ol>
+
+    <ul>
+        <li>a</li>
+        <li>b</li>
+        <li>c</li>
+    </ul>
+
+    <dl>
+        <dt>lorem</dt>
+        <dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, dolor?</dd>
+    </dl>
+
+    <table border="1px">
+
+        <tr>
+            <th rowspan="2">Days</th>
+            <th colspan="9">Time</th>
+        </tr>
+        <tr>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+            <th>4</th>
+            <th rowspan="6">Lunch</th>
+            <th>5</th>
+            <th>6</th>
+            <th>7</th>
+            <th>8</th>
+        </tr>
+
+        <tr>
+            <td>monday</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>tuesday</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>wednesday</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>thursday</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>friday</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+
+    </table>
+    <hr>
+
+    <table border="1px">
+        <thead>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>a</td>
+                <td>c</td>
+                <td>b</td>
+            </tr>
+            <tr>
+                <td>a</td>
+                <td>c</td>
+                <td>b</td>
+            </tr>
+            <tr>
+                <td>a</td>
+                <td>c</td>
+                <td>b</td>
+            </tr>
+            <tr>
+                <td>a</td>
+                <td>c</td>
+                <td>b</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+
+
+    <form method="get">
+        <fieldset>
+            <legend>Input</legend>
+            <label for="name"  >name</label>
+            <!-- required used to make compalsary to fill before submitting -->
+            <input type="text" id="name" name="name" placeholder="name" required><br>
+            <label for="pass">password</label>
+            <input type="password" id="pass" name="pass"><br>
+            <input type="radio" name="req" value="req" checked>req
+            <input type="radio" name="req" value="res">res <br>
+            <!-- checker[] sends the array of checked values without [] it will return the last value -->
+            <input type="checkbox" name="checker[]" value="a">a
+            <input type="checkbox" name="checker[]" value="b">b
+            <input type="checkbox" name="checker[]" value="c">c
+            <input type="checkbox" name="checker[]" value="d">d
+            <input type="checkbox" name="checker[]" value="e">e <br>
+            <label for="age">Age</label>
+            <input type="number" id="age" min="18" max="99" required><br>
+            <input type="range" name="range" id="range" min="0" max="100" step="10"><br>
+            <select name="sel" id="sel">
+                <option value="a">a</option>
+                <option value="b">b</option>
+                <option value="c">c</option>
+            </select><br>
+            <label for="dob">date of birth</label>
+            <input type="date" id="dob"><br>
+            <textarea name="comment" id="comment" cols="30" rows="10"></textarea><br>
+            <input type="submit">
+        </fieldset>
+
+    </form>
+    <hr>
+    <audio controls>
+        <source src="" type="audio/mp3"/>
+        <source src="" type="audio/m4a"/>
+    </audio>
+
+    <iframe src="HelloWorld.html" name="link" frameborder="0"></iframe>
+    <a href="https://www.youtube.com/" target="link">youtube</a>
+
+    <footer>
+        <a href="#top">back to top</a>
+    </footer>
+</body>
