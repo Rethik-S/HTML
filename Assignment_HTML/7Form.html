@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>form</title>
+    <style>
+        form{
+            border: 5px double black;
+            padding: 10px;
+            width: 550px;
+            padding: 20px;
+        }
+        #form_heading {
+            text-align: center;
+            border: 1px solid black;
+            width: 300px;
+            padding: 0 100px;
+            margin-left: 20px;
+           
+        }
+        .form_details
+        {
+            margin-left: 20px;
+        }
+        label {
+            display: block;
+            margin-top: 10px;
+            margin-bottom: 10PX;
+        }
+
+        .inside_lables {
+            display: inline;
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <div id="form_heading">
+            <h1>LOGIN FORM</h1>
+        </div>
+
+        <div class="form_details">
+            <label for="fname">Name</label>
+        <input type="text" id="fname" name="fname" placeholder="FirstName">
+        <input type="text" id="lname" name="lname" placeholder="LastName">
+
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Email">
+
+
+
+        <label for="number">Phone Number</label>
+        <input type="text" id="number" name="number" maxlength="10" placeholder="10-digit number">
+
+
+
+        <label for="pass">Password</label>
+        <input type="password" id="pass" name="pass" placeholder="password">
+
+
+
+        <label for="male">Gender</label>
+        <input type="radio" id="male" name="gender" value="Male" checked>
+        <label for="male" class="inside_lables">Male</label><br>
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female" class="inside_lables">Female</label><br>
+        <input type="radio" id="no" name="gender" value="Not wish to Disclose">
+        <label for="no" class="inside_lables">Not wish to Disclose</label><br>
+
+        <label for="address">Address :</label>
+        <textarea name="address" id="address" cols="30" rows="10"></textarea>
+
+
+        <label for="dob">Date Of Birth</label>
+        <input type="date" name="dob" id="dob">
+
+
+        <label for="time">Time</label>
+        <input type="time" name="time" id="time">
+
+
+        <label for="Languages">Languages</label>
+        <input type="checkbox" name="Languages[]" id="tamil" value="tamil" checked>
+        <label for="tamil" class="inside_lables">Tamil</label><br>
+        <input type="checkbox" name="Languages[]" id="english" value="english">
+        <label for="english" class="inside_lables">English</label><br>
+        <input type="checkbox" name="Languages[]" id="french" value="french">
+        <label for="french" class="inside_lables">French</label><br>
+
+        <label for="interest">Select Your field of interest</label>
+        <select name="interest" id="interest" size="3" multiple>
+            <option value="select">Select</option>
+            <option value="Music">Music</option>
+            <option value="Cycling">Cycling</option>
+            <option value="Batminton">Batminton</option>
+        </select>
+
+        <label for="upload">Upload your Photo</label>
+        <input type="file" name="upload" id="upload">
+
+        <br><br>
+        <input type="submit" value="submit">
+        <input type="reset" value="reset">
+        </div>
+    </form>
+</body>
+
+</html>

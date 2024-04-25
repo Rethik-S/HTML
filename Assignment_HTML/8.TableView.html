@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>vegetable table</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+        img{
+            width: 100px;
+        }
+        button{
+            border-radius: 5px;
+            padding: 0.3rem 0.5rem;
+            margin: 4px;
+        }
+        .delete{
+            background-color: rgb(248, 78, 78);
+        }
+        .edit{
+            background-color: rgb(81, 81, 255);
+        }
+        .add{
+            background-color: rgb(91, 255, 104);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Vegetables of the week</h1>
+    <button class="add">Add</button><br><br>
+    <table>
+        <thead>
+            <tr>
+                <th>Vegetable</th>
+                <th>Name</th>
+                <th>Price</th>
+                <th>height</th>
+                <th>harvest</th>
+                <th>Conditions</th>
+                <th>Image</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Egg plant</td>
+                <td>Solanum Melogna</td>
+                <td>$1.40</td>
+                <td>45cm</td>
+                <td>68 days</td>
+                <td>1 m apart</td>
+                <td><img src="./Images/brinjal.jpeg" alt="eggplant"></td>
+                <td><button class="edit">Edit</button><button class="delete">delete</button></td>
+            </tr>
+            <tr>
+                <td>Tomato</td>
+                <td>Lycopeterspn</td>
+                <td>$1.50</td>
+                <td>1m</td>
+                <td>80 days</td>
+                <td>wire cage</td>
+                <td><img src="./Images/tomato.webp" alt="tomato"></td>
+                <td><button class="edit">Edit</button><button class="delete">delete</button></td>
+
+            </tr>
+            <tr>
+                <td>beans</td>
+                <td> paheocus coctinus</td>
+                <td>$2.00</td>
+                <td>2m</td>
+                <td>64 days</td>
+                <td>10 cm apart</td>
+                <td><img src="./Images/beans.webp" alt="beans"></td>
+                <td><button class="edit">Edit</button><button class="delete">delete</button></td>
+
+            </tr>
+            <tr>
+                <td>Carrot</td>
+                <td>dacus carota</td>
+                <td>$1.80</td>
+                <td>30cm</td>
+                <td>73 days</td>
+                <td>8cm apart</td>
+                <td><img src="./Images/carrot.jpg" alt="Carrot"></td>
+                <td><button class="edit">Edit</button><button class="delete">delete</button></td>
+
+            </tr>
+            <tr>
+                <td>cucumber</td>
+                <td>cucumis satirus</td>
+                <td>$2.10</td>
+                <td>20cm</td>
+                <td>60 days</td>
+                <td>75cm apart</td>
+                <td><img src="./Images/cucumber.jpg" alt="cucumber"></td>
+                <td><button class="edit">Edit</button><button class="delete">delete</button></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
